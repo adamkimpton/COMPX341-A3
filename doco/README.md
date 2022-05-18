@@ -29,4 +29,8 @@ https://github.com/adamkimpton/COMPX341-A3/tree/99d526c40251882a8611e625be63a591
 
 I wrote a very simple python script which adds a comment header to .ts files  which do not already contain the header.
 
+**Maintenance proof**
+
+![Summary Diagram](/assets/readmeImages/Maintenance.png)
+
 We could a new test (which would be run when we execute our pipeline), that would check if we have the appropriate comment header at the top of all our `.ts` files. 
