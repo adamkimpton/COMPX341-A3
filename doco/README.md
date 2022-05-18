@@ -19,6 +19,7 @@ https://github.com/adamkimpton/COMPX341-A3/tree/99d526c40251882a8611e625be63a591
 The pipeline catches compile time errors and prevents git actions as expected. 
 
 **Build failure**
+
 ![Summary Diagram](/assets/readmeImages/buildfailure.png)
 
 ## Task 3 - Maintaining application
