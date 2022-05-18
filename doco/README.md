@@ -20,7 +20,7 @@ The pipeline catches compile time errors and prevents git actions as expected.
 
 **Build failure**
 
-![Summary Diagram](/assets/readmeImages/buildfailure.png)
+![Summary Diagram](/assets/readmeImages/BuildFailure.png)
 
 ## Task 3 - Maintaining application
 ### .ts file comment headers
