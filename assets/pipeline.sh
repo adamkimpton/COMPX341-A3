@@ -24,11 +24,11 @@ if [ -z "$1" ]; then
     exit
 else
     # Add, commit and push changes.
-    cd ".."
+    cd "../"
     git add -A
     git commit -m "$1"
     git push
-    cd "/assets"
+    cd "./assets"
 fi
 
 # Start application.
