@@ -18,13 +18,18 @@ fi
 
 # Commit & push changes to github.
 echo "[2] > GIT"
-git add -A
 if [ -z "$1" ]; then
-    git commit -m "COMPX341-A3: Commiting from CI/CD Pipeline"
+    # If arguments are not provided, exit with error message.
+    echo "Please provide a commit message, example: $ bash pipeline.sh \"COMPX341-A3: A useful commit message\""
+    exit
 else
-    git commit -m $1
+    # Add, commit and push changes.
+    cd ".."
+    git add -A
+    git commit -m "$1"
+    git push
+    cd "/assets"
 fi
-git push
 
 # Start application.
 echo "[3] > START"

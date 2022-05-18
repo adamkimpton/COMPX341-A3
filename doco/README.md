@@ -11,3 +11,10 @@
 ### Pipeline documentation
 
 Creating the initial pipeline (containing only install, build & start) worked as expected, the app compiled and ran as expected.
+
+The pipeline catches compile time errors and prevents git actions as expected. 
+
+## Task 3 - Maintaining application
+### .ts file comment headers
+
+I wrote a very simple python script which adds a comment header to .ts files  which do not already contain the header.

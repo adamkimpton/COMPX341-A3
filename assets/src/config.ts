@@ -1,4 +1,4 @@
-//
+// Adam Kimpton - 1521745
 export default {
   apiGateway: {
     REGION: "us-east-1",

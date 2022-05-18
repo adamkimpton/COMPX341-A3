@@ -1,4 +1,4 @@
-//
+// Adam Kimpton - 1521745
 export const categories = {
   cooks: "Cookbooks",
   database: "Database",
